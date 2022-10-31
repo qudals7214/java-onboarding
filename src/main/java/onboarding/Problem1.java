@@ -7,12 +7,12 @@ class Problem1 {
     public static int solution(List<Integer> pobi, List<Integer> crong) {
         int answer = Integer.MAX_VALUE;
         int pobiResult =result(pobi);
-        System.out.println("포비 : " + pobiResult);
+//        System.out.println("포비 : " + pobiResult);
         if(pobiResult==-1)
             return -1;
 
         int crongResult =result(crong);
-        System.out.println("크롱 : " + crongResult);
+//        System.out.println("크롱 : " + crongResult);
         if(crongResult==-1)
             return -1;
 
