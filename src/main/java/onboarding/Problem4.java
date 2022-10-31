@@ -20,7 +20,7 @@ public class Problem4 {
             }
             answer+=a;
         }
-        System.out.println("청개구리 : "+answer);
+//        System.out.println("청개구리 : "+answer);
         return answer;
     }
 }

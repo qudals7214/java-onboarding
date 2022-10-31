@@ -12,8 +12,8 @@ public class Problem5 {
         for (int a : currency){
             answer.add(money/a);
             money-=money/a*a;
-            System.out.println("돈 : " + money);
-            System.out.println("지폐 : " + answer);
+//            System.out.println("돈 : " + money);
+//            System.out.println("지폐 : " + answer);
         }
 
         return answer;

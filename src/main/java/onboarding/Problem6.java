@@ -26,7 +26,7 @@ public class Problem6 {
         TreeSet<String> sort = new TreeSet<>(answer);
         answer = new ArrayList<>(sort);
         for(String a : answer){
-            System.out.println(a);
+//            System.out.println(a);
         }
         return answer;
     }

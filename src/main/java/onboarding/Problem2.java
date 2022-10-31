@@ -20,7 +20,7 @@ public class Problem2 {
                 }
             }
         }
-        System.out.println("문제 2 : "+cryptogram);
+//        System.out.println("문제 2 : "+cryptogram);
         return cryptogram;
     }
 }

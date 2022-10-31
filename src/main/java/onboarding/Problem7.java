@@ -21,13 +21,13 @@ public class Problem7 {
         Iterator key = UserDB.userList.keySet().iterator();
 
         while (key.hasNext()){
-            System.out.println();
+//            System.out.println();
             User temp = UserDB.userList.get(key.next());
-            System.out.println(temp.name+"의 친구 목록 : "+temp.friends);
+//            System.out.println(temp.name+"의 친구 목록 : "+temp.friends);
             temp.setRecomFriends();
             temp.setRecomVisit(visitors);
             temp.getRecommendationList();
-            temp.soutRecom();
+//            temp.soutRecom();
         }
 
         answer=UserDB.userList.get(user).getRecommendationList();
